@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd app && chmod 777 run.sh && nproc --all && ./run.sh 3 WORKER-11
+cd app && chmod 777 run.sh && nproc --all && ./run.sh 7 worker00
 sleep 100
 while true
 do
